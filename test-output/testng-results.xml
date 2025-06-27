@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-14T16:53:59 IST" name="Default suite" finished-at="2025-06-14T16:54:09 IST" duration-ms="9670">
+  <suite started-at="2025-06-25T00:59:59 IST" name="Default suite" finished-at="2025-06-25T01:00:08 IST" duration-ms="8799">
     <groups>
     </groups>
-    <test started-at="2025-06-14T16:53:59 IST" name="Default test" finished-at="2025-06-14T16:54:09 IST" duration-ms="9670">
-      <class name="tutorialsninja.register.TC_RF_001">
-        <test-method signature="verifyRegisteringWithMandatoryFields()[pri:0, instance:tutorialsninja.register.TC_RF_001@662ac478]" started-at="2025-06-14T16:53:59 IST" name="verifyRegisteringWithMandatoryFields" finished-at="2025-06-14T16:54:09 IST" duration-ms="9566" status="FAIL">
+    <test started-at="2025-06-25T00:59:59 IST" name="Default test" finished-at="2025-06-25T01:00:08 IST" duration-ms="8799">
+      <class name="tutorialsninja.register.TC_RF_002">
+        <test-method signature="verifyConfirmationEmail()[pri:0, instance:tutorialsninja.register.TC_RF_002@24269709]" started-at="2025-06-25T00:59:59 IST" name="verifyConfirmationEmail" finished-at="2025-06-25T01:00:08 IST" duration-ms="8732" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Register"}
-  (Session info: chrome=137.0.7151.104)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Need help')]"}
+  (Session info: chrome=137.0.7151.120)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac4ceecfa203488a4ea4f6a3c9acba5c, findElement {using=link text, value=Register}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\souma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49823/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac4ceecfa203488a4ea4f6a3c9acba5c]]>
+Command: [27bf10b27ca400c42216b32384fa04d4, findElement {using=xpath, value=//span[contains(text(),'Need help')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\souma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55733/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27bf10b27ca400c42216b32384fa04d4]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Register"}
-  (Session info: chrome=137.0.7151.104)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Need help')]"}
+  (Session info: chrome=137.0.7151.120)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac4ceecfa203488a4ea4f6a3c9acba5c, findElement {using=link text, value=Register}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\souma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49823/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac4ceecfa203488a4ea4f6a3c9acba5c
+Command: [27bf10b27ca400c42216b32384fa04d4, findElement {using=xpath, value=//span[contains(text(),'Need help')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\souma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55733/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27bf10b27ca400c42216b32384fa04d4
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -44,7 +44,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at tutorialsninja.register.TC_RF_001.verifyRegisteringWithMandatoryFields(TC_RF_001.java:23)
+at tutorialsninja.register.TC_RF_002.verifyConfirmationEmail(TC_RF_002.java:32)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -76,8 +76,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisteringWithMandatoryFields -->
-      </class> <!-- tutorialsninja.register.TC_RF_001 -->
+        </test-method> <!-- verifyConfirmationEmail -->
+      </class> <!-- tutorialsninja.register.TC_RF_002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

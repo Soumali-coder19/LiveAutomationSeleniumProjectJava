@@ -26,6 +26,24 @@
     <artifactId>selenium-java</artifactId>
     <version>4.33.0</version>
 </dependency>
+  	<dependency>
+  		<groupId>SeleniumWebdriver</groupId>
+  		<artifactId>SeleniumWebdriver</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version>
+</dependency>
+
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>jakarta.mail</artifactId>
+    <version>2.0.1</version>
+</dependency>
+
   </dependencies>
 
   <build>
